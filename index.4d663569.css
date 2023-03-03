@@ -21,6 +21,7 @@ body {
 }
 
 .Card {
+  cursor: pointer;
   border-radius: 5px;
   margin: 0 0 20px;
   text-decoration: none;
@@ -28,6 +29,10 @@ body {
   animation-duration: 4s;
   display: block;
   box-shadow: 8px 14px 38px #272c310f, 1px 3px 8px #272c3108;
+}
+
+.Card:hover {
+  box-shadow: 8px 14px 38px #272c3133, 1px 3px 8px #272c311a;
 }
 
 .Card img {
